@@ -1,0 +1,13 @@
+.checkbox:checked {
+  border: 1px solid #ccc;
+}
+
+.checkbox:checked {
+  background-color: #45bd32;
+  border: 1px solid #ccc;
+}
+
+.checkbox:focus {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 0 0.25rem rgba(70, 180, 50, 0.25); /* Din färg-glow (RGBA för transparens) */
+}

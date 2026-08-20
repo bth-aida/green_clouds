@@ -1,0 +1,27 @@
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.btn-analysis {
+  transition: all 0.3s ease-in-out;
+  width: 140px; 
+  min-height: 40px;
+}
+
+.btn-loading {
+  width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-color: transparent !important;
+  background-color: rgba(0,0 ,0,0) !important;
+}

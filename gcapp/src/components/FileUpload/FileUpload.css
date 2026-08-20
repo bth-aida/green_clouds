@@ -1,0 +1,36 @@
+.pbar {
+  transition: 0.4s ease;
+  height: 0;
+  width: 30%;
+  overflow: hidden;
+}
+
+.pbar.pshow{
+  height: 15px;
+}
+
+/* Data list */
+.list-group .bi-check-circle {
+  color: #379928;
+}
+
+.delete-btn {
+  transition: transform 0.2s ease-in-out;
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+}
+
+.upload-btn {
+  background-color: #379928;
+}
+
+.data-row-li {
+  background-color: white;
+  transition: background-color 0.2s ease;
+}
+
+.data-row-li.is-removing {
+  background-color: #ffddcc;
+}

@@ -1,0 +1,33 @@
+.btn-enter {
+  background-color: #379928;
+  color: white;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-enter:hover {
+  background-color: #268817;
+  color: white;
+}
+
+.btn-enter:active {
+  background-color: #157710 !important;
+  color: white !important;
+}
+
+.btn-generate {
+  background-color: #445577;
+  color: white;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-generate:hover {
+  background-color: #334466;
+  color: white;
+}
+
+.btn-generate:active {
+  background-color: #223355 !important; 
+  color: white !important;
+}
