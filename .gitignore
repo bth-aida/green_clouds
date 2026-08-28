@@ -1,3 +1,5 @@
 /gc_api/src/gc_core/__pycache__
 /gc_api/src/gc_core/api/__pycache__
 *.pyc
+gc_api/database.db
+gc_api/app.log
